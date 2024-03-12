@@ -7,7 +7,6 @@ for (let i = 0; i < btn.length ; i++) {
 
 function animal(e){
     let sound = e.target.innerText;
-    console.log(sound);
     soundAnimal = new Audio(`sound/${sound}.mp3`);
     soundAnimal.play();
 }
